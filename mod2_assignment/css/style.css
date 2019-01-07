@@ -80,6 +80,7 @@ p{
 	box-sizing: border-box;
 	min-width: 300px;
 	overflow: hidden;
+	height: 230px;
 }
 
 /************* Responsive Work *************/
