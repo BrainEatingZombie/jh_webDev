@@ -1,0 +1,80 @@
+
+/** HEADER **/
+#header-nav {
+  background-color: #4F4F4F;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Food, LLC name */
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+
+}
+#nav-list a:hover {
+  background: #4F4F4F;
+}
+#nav-list li:first-child {
+  border-top: 0.5px solid #000000;
+}
+#nav-list li{
+  border-bottom: 0.5px  solid #000000;
+  background: #CCCCCC;
+}
+#collapsable-nav {
+    border:none;
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.2em;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+.food {
+  background-color: #CCCCCC;
+  margin: 0 auto 15px;
+}
+.title {
+  color: black;
+  font-family: 'Indie Flower', cursive, bold;
+  font-style: italic;
+  font-size: 200%;
+  padding-bottom: 5px;
+}
+body {
+  background-color: #606060;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 255%;
+  color: black;
+}
